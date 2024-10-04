@@ -25,10 +25,8 @@ void startGame() {
     int ranNum;
     char playerChoice;
     char compChoice;
-    int listOptions[];
-    
-    // 0 = rock   1 = paper    2 = scissors
-    listOptions = {'r','p','s','a'};
+    char* listOptions[3] = {'r','p','s'};
+
 
 
     // Gets user choice
